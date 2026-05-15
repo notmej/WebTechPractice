@@ -1,0 +1,117 @@
+/* - - - 1. Flex-direction: 
+    - row 
+    - column
+
+- - - - 2. justify-content: 
+    - move items in same direction as flex-direction
+    
+*/
+
+body {
+    background: rgb(46, 46, 167);
+}
+
+/* inner blocks with numbers */
+.inner {
+    background-color: rgb(254, 166, 237);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 80px;
+}
+/* - - - - - - - - - - - - - - - - - -  */
+
+#outer {
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+    margin: 10%;
+}
+
+#outer2 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+}
+/* #outer2:hover{
+    animation-duration: 3s;
+    animation-name: otter;
+}
+
+@keyframes otter {
+    0% {
+
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 10%;
+    }
+} */
+
+#outer3 {
+    background-color: aqua;
+    display: flex;
+    margin: 10%;
+    justify-content: space-around;
+}
+
+#outer7 {
+    background-color: aqua;
+    display: flex;
+    margin: 10%;
+    justify-content: space-between;
+}
+
+
+/* outer 4 and 5 is in colsOutter */
+#outer4 {
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    margin: 10%;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#outer5 {
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    margin: 10%;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+#outer6 {
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    margin: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#colsOutter {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+/* - - - - - - - - - - - - - - - - - -  */
+
+
+#lilGuyDiv{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    height: fit-content;
+}
+
+#lilGuy {
+    size: 200px;
+    display: flex;
+}
+
