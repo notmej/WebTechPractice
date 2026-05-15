@@ -23,13 +23,13 @@ JS is like java i guess, but the other two.. SPECIFICALLY HTML
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     height: 300px;
-    width:500px;
+    width: 500px;
     border-radius: 20px;
 }
 
-#add{
+#add {
     margin-top: 30px;
 }
 
@@ -37,6 +37,3 @@ JS is like java i guess, but the other two.. SPECIFICALLY HTML
     display: flex;
     flex-direction: row;
 }
-
-
-

@@ -1,7 +1,7 @@
 const counterText = document.getElementById("toChange");
 const add = document.getElementById("add");
 const reset = document.getElementById("reset");
-var counter = 0;
+let counter = 0;
 
 // No parentheses on onClock call.
 // onClick --> reference
@@ -11,16 +11,16 @@ reset.addEventListener("click", resetb)
 
 //functions
 function onClick() {
-    counter+= 1;
+    counter += 1;
     display(counter);
 }
 
-function resetb(){
+function resetb() {
     counter = 0;
     display(counter);
 }
 
 // standardized display.
-function display(counter){
+function display(counter) {
     counterText.textContent = counter;
 }
