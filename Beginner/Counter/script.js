@@ -11,8 +11,16 @@ reset.addEventListener("click", resetb)
 
 //functions
 function onClick() {
-    counter += 1;
-    display(counter);
+    if (counter === 5-1){
+        counter += 1;
+        display(counter + " First checkpoint!");
+    } else if (counter != 30){
+        counter += 1;
+        display((counter === 30) ? counter + " this is your limit" : counter ); 
+    } else {
+        display("Limit reached");
+        
+    }
 }
 
 function resetb() {
@@ -21,6 +29,6 @@ function resetb() {
 }
 
 // standardized display.
-function display(counter) {
-    counterText.textContent = counter;
+function display(inp) {
+    counterText.textContent = inp;
 }
